@@ -1,7 +1,7 @@
 <template>
 	<div class="wrapper">
-		<div class="leaderboard"></div>
-		<div class="game-wrapper"></div>
+		<div class="leaderboard">leaderboard</div>
+		<div class="game-wrapper">game</div>
 	</div>
 </template>
 
@@ -27,6 +27,7 @@ export default {
 .wrapper {
 	width: 100%;
 	min-height: 100%;
+	display: inline-block;
 }
 
 
@@ -35,10 +36,13 @@ export default {
 	width: 20%;
 	height: 100%;
 	border: 1px solid black;
+	float: left;
 }
 
 .game-wrapper {
+	float: left;
 	height: 100%;
+	width: 80%;
 	border: 1px solid red;
 }
 </style>

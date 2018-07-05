@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<div class="leaderboard">leaderboard</div>
+		<div class="leaderboard"><leaderboard></leaderboard></div>
 		<div class="game-wrapper">game</div>
 	</div>
 </template>
@@ -8,8 +8,12 @@
 
 <script>
 import axios from '~/plugins/axios';
+import leaderboard from '~/components/leaderboard'
 
 export default {
+	components: {
+    	leaderboard,
+  	},
 	data: () => ({
 		text: 'Anonymous'
 	}),
@@ -37,6 +41,7 @@ export default {
 	height: 100%;
 	border: 1px solid black;
 	float: left;
+	text-align: center;
 }
 
 .game-wrapper {

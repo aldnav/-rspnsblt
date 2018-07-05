@@ -14,8 +14,8 @@
 </template>
 
 <script>
-import Countdown from '~/components/Countdown.vue';
 import pepper from '~/components/pepper.vue';
+import Countdown from '~/components/Countdown.vue';
 
 export default {
     components:{ Countdown, pepper },
@@ -47,11 +47,5 @@ export default {
     width: 100%;
     height: 100%;
 }
-.pepper-container {
-    height: 104vh;
-    width: 70vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 </style>

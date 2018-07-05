@@ -1,6 +1,8 @@
 # rspnsblt
 
-> Nuxt.js project
+> :hot_pepper: game
+
+![alt preview](preview.png)
 
 ## Build Setup
 

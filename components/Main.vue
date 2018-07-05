@@ -1,7 +1,9 @@
 <template>
 	<div class="wrapper">
 		<div class="leaderboard"><leaderboard></leaderboard></div>
-		<div class="game-wrapper">game</div>
+		<div class="game-wrapper">
+			<Words/>
+		</div>
 	</div>
 </template>
 
@@ -9,15 +11,13 @@
 <script>
 import axios from '~/plugins/axios';
 import leaderboard from '~/components/leaderboard'
+import Words from '~/components/Words.vue'
 
 export default {
-	components: {
-    	leaderboard,
-  	},
+	components: { leaderboard, Words },
 	data: () => ({
 		text: 'Anonymous'
 	}),
-
 	mounted() {
 		// console.log('yo');
 		// axios.get('/ohyeah').then(response => {
@@ -33,8 +33,6 @@ export default {
 	min-height: 100%;
 	display: inline-block;
 }
-
-
 .leaderboard {
 	min-width: 200px;
 	width: 20%;
@@ -43,7 +41,6 @@ export default {
 	float: left;
 	text-align: center;
 }
-
 .game-wrapper {
 	float: left;
 	height: 100%;

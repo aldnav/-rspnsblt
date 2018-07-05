@@ -17,6 +17,10 @@ $ npm start
 
 # generate static project
 $ npm run generate
+
+# run the server
+python server.py
+python server.py --port=9000
 ```
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

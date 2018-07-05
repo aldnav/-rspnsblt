@@ -7,6 +7,10 @@
   </div>
 </template>
 
+<script>
+  
+</script>
+
 <style>
 .VueToNuxtLogo {
   display: inline-block;

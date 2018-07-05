@@ -47,6 +47,8 @@ export default {
     margin: auto;
     height: 854px;
     box-shadow: 5px 5px 25px #888888;
+    position: absolute;
+    z-index: -10;
 }
 .play-btn {
     background-color: white !important;

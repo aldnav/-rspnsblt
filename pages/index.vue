@@ -2,6 +2,7 @@
   <Main></Main>
 </template>
 
+
 <script>
 import Main from '~/components/Main';
 import axios from '~/plugins/axios';

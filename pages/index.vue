@@ -1,48 +1,23 @@
 <template>
-  <section class="container">
-    <Sample></Sample>
-  </section>
+  <Main></Main>
 </template>
 
 <script>
-import Sample from '~/components/Sample';
+import Main from '~/components/Main';
 import axios from '~/plugins/axios';
 
 
 export default {
   components: {
-    Sample
+    Main
   }
 }
 </script>
 
 <style>
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+
+section {
+  height: 100%;
 }
 
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>

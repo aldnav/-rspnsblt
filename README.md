@@ -19,6 +19,8 @@ $ npm start
 $ npm run generate
 
 # run the server
+# python 3 create venv first!
+pip install -r requirements.txt
 python server.py
 python server.py --port=9000
 ```

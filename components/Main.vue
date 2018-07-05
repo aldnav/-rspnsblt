@@ -1,6 +1,6 @@
 <template>
 	<div class="wrapper">
-		<div class="leaderboard">leaderboard</div>
+		<div class="leaderboard"><leaderboard></leaderboard></div>
 		<div class="game-wrapper">
 			<Words/>
 		</div>
@@ -10,10 +10,11 @@
 
 <script>
 import axios from '~/plugins/axios';
+import leaderboard from '~/components/leaderboard'
 import Words from '~/components/Words.vue'
 
 export default {
-	components: { Words },
+	components: { leaderboard, Words },
 	data: () => ({
 		text: 'Anonymous'
 	}),
@@ -38,6 +39,7 @@ export default {
 	height: 100%;
 	border: 1px solid black;
 	float: left;
+	text-align: center;
 }
 .game-wrapper {
 	float: left;

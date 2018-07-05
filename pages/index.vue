@@ -9,7 +9,7 @@ import axios from '~/plugins/axios';
 
 export default {
   components: {
-    Main
+    Main,
   }
 }
 </script>

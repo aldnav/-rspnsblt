@@ -1,6 +1,7 @@
 <template>
   <section class="container">
     <div>
+    
       <app-logo/>
       <h1 class="title">
         rspnsblt
@@ -20,7 +21,10 @@
       </div>
     </div>
   </section>
+
+
 </template>
+
 
 <script>
 import AppLogo from '~/components/AppLogo.vue'
